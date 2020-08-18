@@ -1,0 +1,206 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.page header {
+  height: 100vh;
+  background: linear-gradient(rgb(110, 34, 99), transparent),
+    url("../images/bg.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page header nav {
+  background-color: transparent !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.page header nav .logo {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 3px 10px rgb(0, 0, 0, 0.5);
+}
+
+.page header nav ul li {
+  padding: 0 20px;
+}
+
+.page header nav ul li a {
+  color: #fff !important;
+  transition-duration: 0.3s;
+}
+
+.page header nav ul li.active a,
+.page header nav ul li a:hover {
+  background-color: #1c2136;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* scrolled navbar*/
+.bg-light.scrolled {
+  background: #fff !important;
+  transition-duration: 0.5s;
+  color: #333 !important;
+  box-shadow: 1px 1px 10px 1px #aaa;
+}
+.navbar-brand.scrolled {
+  color: #333 !important;
+}
+
+.nav-link i.scrolled {
+  color: #333 !important;
+}
+
+.nav-link.scrolled {
+  color: #333 !important;
+}
+.page header nav ul li.active a.scrolled,
+.page header nav ul li.active a.scrolled i {
+  color: #fff !important;
+}
+/* header info style */
+
+.page header .info {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page header .info span {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.page header .info h1 {
+  font-size: 50px;
+}
+
+.page header .info p {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+/* about section style*/
+.page .about {
+  margin-top: 100px;
+  position: relative;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.page .about h1,
+.page .protfolio h1,
+.page .contact h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: #333;
+  position: relative;
+  z-index: 99;
+  text-shadow: 2px 3px 10px #aaa;
+  text-transform: uppercase;
+}
+
+.page .about span.hint,
+.page .protfolio span.hint,
+.page .contact span.hint {
+  color: #eee;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+
+.page .about img {
+  width: 100%;
+}
+
+.page .about .about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.page .about .about-info button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(110, 34, 99);
+  box-shadow: 1px 1px 30px 1px rgb(110, 34, 99, 0.8);
+  border: 1px solid rgb(110, 34, 99);
+}
+/* portfolio section style*/
+.page .protfolio {
+  margin-top: 100px;
+  position: relative;
+  padding: 0 30px;
+  text-align: center;
+}
+.page .protfolio .container .row {
+  margin-top: 60px;
+}
+
+.page .protfolio .work {
+  margin: 10px 0;
+  border: 0.5px solid #aaa;
+  padding: 5px;
+  border-radius: 5px;
+}
+.page .protfolio img {
+  width: 100%;
+}
+
+/* contact section style*/
+.page .contact {
+  margin-top: 100px;
+  position: relative;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.page .contact .icon {
+  background-color: #e3195c;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.page .contact .connect {
+  margin-top: 25px;
+}
+
+/*footer style*/
+footer {
+  background-color: #1c2136;
+  color: #fff;
+  margin-top: 100px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer a {
+  font-size: 20px;
+  padding: 0px 10px;
+}
