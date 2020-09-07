@@ -48,7 +48,7 @@ html {
 .page header nav ul li a:hover {
   background-color: #1c2136;
   border-radius: 5px;
-  color: #fff;
+  color: #fff !important;
 }
 
 /* scrolled navbar*/
@@ -57,6 +57,17 @@ html {
   transition-duration: 0.5s;
   color: #333 !important;
   box-shadow: 1px 1px 10px 1px #aaa;
+}
+@media screen and (max-width: 400px){
+.page header nav{
+    background: #fff !important;
+  }
+  .navbar-brand ,
+  .nav-link i ,
+  .nav-link,
+  .page header nav ul li a {
+     color: #333 !important;
+  }
 }
 .navbar-brand.scrolled {
   color: #333 !important;
@@ -133,6 +144,14 @@ html {
   right: 0;
   margin: auto;
 }
+@media screen and (max-width: 600px){
+  .page .about span.hint,
+.page .protfolio span.hint,
+.page .contact span.hint{
+  font-size: 6vw; 
+}
+}
+
 .page .about img {
   width: 100%;
 }
@@ -183,18 +202,15 @@ html {
   text-align: center;
 }
 
-.page .contact .icon {
-  background-color: #e3195c;
-  padding: 10px;
-  border-radius: 50%;
-  color: #fff;
+.page .contact .fas {
+  color: #e3195c;
 }
 
 .page .contact .connect {
   margin-top: 25px;
   text-align: left;
 }
-#noor{font-size: 1vw;}
+
 /*footer style*/
 footer {
   background-color: #1c2136;
