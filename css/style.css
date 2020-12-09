@@ -194,6 +194,9 @@ html {
   width: 100%;
 }
 
+.page .protfolio .work video{
+      max-width: 94.333333%;
+    }
 /* contact section style*/
 .page .contact {
   margin-top: 100px;
