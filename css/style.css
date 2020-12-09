@@ -205,14 +205,14 @@ html {
   text-align: center;
 }
 
-.page .contact .fas {
+.page .contact .fas ,
+.page .contact .fab{
   color: #e3195c;
 }
-
-.page .contact .connect {
-  margin-top: 25px;
-  text-align: left;
+.page .contact a {
+  color: #271e1e;
 }
+
 
 /*footer style*/
 footer {
