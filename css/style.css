@@ -192,6 +192,7 @@ html {
 }
 .page .protfolio img {
   width: 100%;
+  height: 200px;
 }
 
 .page .protfolio .work video{
